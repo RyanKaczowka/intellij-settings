@@ -1,3 +1,8 @@
 <application>
   <component name="DaemonCodeAnalyzerSettings" profile="Enhanced" />
+  <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="Menlo" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
+  </component>
 </application>
