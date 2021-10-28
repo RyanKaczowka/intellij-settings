@@ -6,6 +6,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="edf" type="Native" />
       <mapping ext="udf" type="Native" />
+      <mapping ext="key" type="Native" />
       <mapping ext="bin" type="Native" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
