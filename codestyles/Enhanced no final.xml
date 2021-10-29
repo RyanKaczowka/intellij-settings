@@ -1,15 +1,13 @@
-<code_scheme name="Enhanced" version="173">
+<code_scheme name="Enhanced no final" version="173">
   <option name="SOFT_MARGINS" value="80,120" />
   <JavaCodeStyleSettings>
-    <option name="GENERATE_FINAL_LOCALS" value="true" />
-    <option name="GENERATE_FINAL_PARAMETERS" value="true" />
     <option name="VISIBILITY" value="private" />
     <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
     <option name="ANNOTATION_PARAMETER_WRAP" value="5" />
     <option name="ALIGN_MULTILINE_TEXT_BLOCKS" value="true" />
     <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
-    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="-1" />
-    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="-1" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
     <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
       <value />
     </option>
