@@ -126,9 +126,6 @@
     <option name="excludeTestCode" value="false" />
     <option name="excludeInnerClasses" value="false" />
   </inspection_tool>
-  <inspection_tool class="ClassInheritanceDepth" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_limit" value="2" />
-  </inspection_tool>
   <inspection_tool class="ClassInitializer" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ClassLoaderInstantiation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ClassMayBeInterface" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
@@ -185,7 +182,9 @@
   <inspection_tool class="ConstantDeclaredInAbstractClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantDeclaredInInterface" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantMathCall" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ConstantOnWrongSideOfComparison" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConstantOnWrongSideOfComparison" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="myConstantShouldGoLeft" value="false" />
+  </inspection_tool>
   <inspection_tool class="ConstantValueVariableUse" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstructorCount" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreDeprecatedConstructors" value="false" />
@@ -217,7 +216,7 @@
   <inspection_tool class="DoubleBraceInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DoubleLiteralMayBeFloatLiteral" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DriverManagerGetConnection" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="DuplicateStringLiteralInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+  <inspection_tool class="DuplicateStringLiteralInspection" enabled="true" level="INFORMATION" enabled_by_default="true">
     <option name="MIN_STRING_LENGTH" value="5" />
     <option name="IGNORE_PROPERTY_KEYS" value="false" />
   </inspection_tool>
@@ -256,17 +255,17 @@
   <inspection_tool class="ExtendsUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ExternalizableWithSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FallthruInSwitchStatement" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="FeatureEnvy" enabled="true" level="INFORMATION" enabled_by_default="true">
-    <scope name="Production" level="WARNING" enabled="true">
-      <option name="ignoreTestCases" value="false" />
-    </scope>
-    <option name="ignoreTestCases" value="false" />
-  </inspection_tool>
   <inspection_tool class="FieldAccessNotGuarded" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="countGettersAndSetters" value="false" />
   </inspection_tool>
-  <inspection_tool class="FieldCount" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="FieldCount" enabled="true" level="INFORMATION" enabled_by_default="true">
+    <scope name="Production" level="WARNING" enabled="true">
+      <option name="m_countConstantFields" value="false" />
+      <option name="m_considerStaticFinalFieldsConstant" value="false" />
+      <option name="myCountEnumConstants" value="false" />
+      <option name="m_limit" value="10" />
+    </scope>
     <option name="m_countConstantFields" value="false" />
     <option name="m_considerStaticFinalFieldsConstant" value="false" />
     <option name="myCountEnumConstants" value="false" />
@@ -296,7 +295,6 @@
     <option name="ignoredTypesString" value="java.io.ByteArrayOutputStream,java.io.ByteArrayInputStream,java.io.StringBufferInputStream,java.io.CharArrayWriter,java.io.CharArrayReader,java.io.StringWriter,java.io.StringReader" />
     <option name="insideTryAllowed" value="false" />
   </inspection_tool>
-  <inspection_tool class="IfCanBeAssertion" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IfStatementWithTooManyBranches" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_limit" value="3" />
   </inspection_tool>
@@ -386,7 +384,9 @@
   </inspection_tool>
   <inspection_tool class="LoggingConditionDisagreesWithLogStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LoopWithImplicitTerminationCondition" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true">
+    <scope name="Tests" level="WARNING" enabled="false" />
+  </inspection_tool>
   <inspection_tool class="MalformedSetUpTearDown" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MarkerInterface" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -395,7 +395,12 @@
     <option name="ignoreMultipleArrayParameters" value="true" />
     <option name="ignoreMultiDimensionalArrayParameters" value="true" />
   </inspection_tool>
-  <inspection_tool class="MethodCount" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="MethodCount" enabled="true" level="INFORMATION" enabled_by_default="true">
+    <scope name="Production" level="WARNING" enabled="true">
+      <option name="m_limit" value="20" />
+      <option name="ignoreGettersAndSetters" value="false" />
+      <option name="ignoreOverridingMethods" value="false" />
+    </scope>
     <option name="m_limit" value="20" />
     <option name="ignoreGettersAndSetters" value="false" />
     <option name="ignoreOverridingMethods" value="false" />
@@ -406,7 +411,7 @@
     <option name="m_limit" value="10" />
   </inspection_tool>
   <inspection_tool class="MethodMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_onlyPrivateOrFinal" value="false" />
+    <option name="m_onlyPrivateOrFinal" value="true" />
     <option name="m_ignoreEmptyMethods" value="true" />
   </inspection_tool>
   <inspection_tool class="MethodMayBeSynchronized" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -542,7 +547,7 @@
   </inspection_tool>
   <inspection_tool class="OverlyLongLambda" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="OverlyStrongTypeCast" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreInMatchingInstanceof" value="false" />
+    <option name="ignoreInMatchingInstanceof" value="true" />
   </inspection_tool>
   <inspection_tool class="OverridableMethodCallDuringObjectConstruction" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="OverriddenMethodCallDuringObjectConstruction" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -564,8 +569,8 @@
   <inspection_tool class="ParameterHidingMemberVariable" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreInvisibleFields" value="true" />
     <option name="m_ignoreStaticMethodParametersHidingInstanceFields" value="true" />
-    <option name="m_ignoreForConstructors" value="false" />
-    <option name="m_ignoreForPropertySetters" value="false" />
+    <option name="m_ignoreForConstructors" value="true" />
+    <option name="m_ignoreForPropertySetters" value="true" />
     <option name="m_ignoreForAbstractMethods" value="false" />
   </inspection_tool>
   <inspection_tool class="ParameterNameDiffersFromOverriddenParameter" enabled="true" level="WARNING" enabled_by_default="true">
@@ -593,7 +598,7 @@
     <option name="ignoreEnums" value="false" />
     <option name="ignoreInterfaces" value="false" />
   </inspection_tool>
-  <inspection_tool class="PublicConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="PublicConstructor" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="PublicConstructorInNonPublicClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PublicField" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreEnums" value="false" />
@@ -605,12 +610,6 @@
   <inspection_tool class="PublicInnerClass" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreEnums" value="false" />
     <option name="ignoreInterfaces" value="false" />
-  </inspection_tool>
-  <inspection_tool class="PublicMethodNotExposedInInterface" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignorableAnnotations">
-      <value />
-    </option>
-    <option name="onlyWarnIfContainingClassImplementsAnInterface" value="false" />
   </inspection_tool>
   <inspection_tool class="PublicStaticArrayField" enabled="true" level="INFORMATION" enabled_by_default="true">
     <scope name="Production" level="WARNING" enabled="true" />
@@ -662,6 +661,7 @@
   <inspection_tool class="SerializableHasSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreAnonymousInnerClasses" value="false" />
     <option name="superClassString" value="java.awt.Component" />
+    <option name="ignoreClassWithoutFields" value="true" />
   </inspection_tool>
   <inspection_tool class="SerializableInnerClassHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreAnonymousInnerClasses" value="false" />
@@ -696,24 +696,9 @@
     <scope name="Production" level="WARNING" enabled="true" />
   </inspection_tool>
   <inspection_tool class="StaticNonFinalField" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="StaticVariableInitialization" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_ignorePrimitives" value="false" />
-  </inspection_tool>
-  <inspection_tool class="StaticVariableUninitializedUse" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_ignorePrimitives" value="false" />
-  </inspection_tool>
   <inspection_tool class="StringBufferField" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringBufferMustHaveInitialCapacity" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringBufferToStringInConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="StringConcatenation" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreAsserts" value="false" />
-    <option name="ignoreSystemOuts" value="false" />
-    <option name="ignoreSystemErrs" value="false" />
-    <option name="ignoreThrowableArguments" value="false" />
-    <option name="ignoreConstantInitializers" value="false" />
-    <option name="ignoreInTestCode" value="false" />
-    <option name="ignoreInToString" value="false" />
-  </inspection_tool>
   <inspection_tool class="StringConcatenationArgumentToLogCall" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringConcatenationInFormatCall" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StringConcatenationInMessageFormatCall" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -759,7 +744,9 @@
     <option name="ignoreSupers" value="true" />
   </inspection_tool>
   <inspection_tool class="TestMethodInProductCode" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="TestMethodWithoutAssertion" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TestMethodWithoutAssertion" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="assertionMethods" value="org.junit.Assert,assert.*|fail.*,junit.framework.Assert,assert.*|fail.*,org.junit.jupiter.api.Assertions,assert.*|fail.*,org.assertj.core.api.Assertions,assertThat.*,org.assertj.core.api.WithAssertions,assertThat.*,com.google.common.truth.Truth,assert.*,com.google.common.truth.Truth8,assert.*,org.mockito.Mockito,verify.*,org.mockito.InOrder,verify,org.junit.rules.ExpectedException,expect.*,org.hamcrest.MatcherAssert,assertThat,mockit.Verifications,Verifications" />
+  </inspection_tool>
   <inspection_tool class="ThisEscapedInConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadDeathRethrown" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadDumpStack" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -801,7 +788,6 @@
     <option name="onlyWeakentoInterface" value="true" />
   </inspection_tool>
   <inspection_tool class="TypeParameterExtendsFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="UncheckedExceptionClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnconditionalWait" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UndeclaredTests" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnknownGuard" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -870,7 +856,7 @@
   <inspection_tool class="WaitWithoutCorrespondingNotify" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="WeakerAccess" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="false" />
-    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="false" />
     <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
   </inspection_tool>
   <inspection_tool class="ZeroLengthArrayInitialization" enabled="true" level="WARNING" enabled_by_default="true" />

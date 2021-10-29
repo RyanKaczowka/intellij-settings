@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="File '…/shared-test/src/test/java/com/philips/sapphire/test/dcu/TestConstants.java [DataCardUtilities.shared-test.test]'" />
-    <option name="defaultScopeName" value="File '…/shared-test/src/test/java/com/philips/sapphire/test/dcu/TestConstants.java [DataCardUtilities.shared-test.test]'" />
+    <option name="customScope" value="File '…/datacardserver/src/main/java/com/philips/sapphire/dcu/server/web/controller/PluginManagementController.java [DataCardUtilities.datacardserver.main]'" />
+    <option name="defaultScopeName" value="File '…/datacardserver/src/main/java/com/philips/sapphire/dcu/server/web/controller/PluginManagementController.java [DataCardUtilities.datacardserver.main]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…/shared-test/src/test/java/com/philips/sapphire/test/dcu/TestConstants.java [DataCardUtilities.shared-test.test]'" />
+    <option name="SEARCH_SCOPE" value="File '…/datacardserver/src/main/java/com/philips/sapphire/dcu/server/web/controller/PluginManagementController.java [DataCardUtilities.datacardserver.main]'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
