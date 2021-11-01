@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="File '…/domain/src/main/java/com/philips/sapphire/datacardserver/domain/util/LongArrayComparator.java [DataCardUtilities.domain.main]'" />
-    <option name="defaultScopeName" value="File '…/domain/src/main/java/com/philips/sapphire/datacardserver/domain/util/LongArrayComparator.java [DataCardUtilities.domain.main]'" />
+    <option name="customScope" value="File '…/msapi/src/main/java/com/philips/sapphire/datacardserver/msapi/validation/UserDCUInfoValidator.java [DataCardUtilities.msapi.main]'" />
+    <option name="defaultScopeName" value="File '…/msapi/src/main/java/com/philips/sapphire/datacardserver/msapi/validation/UserDCUInfoValidator.java [DataCardUtilities.msapi.main]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…/domain/src/main/java/com/philips/sapphire/datacardserver/domain/util/LongArrayComparator.java [DataCardUtilities.domain.main]'" />
+    <option name="SEARCH_SCOPE" value="File '…/msapi/src/main/java/com/philips/sapphire/datacardserver/msapi/validation/UserDCUInfoValidator.java [DataCardUtilities.msapi.main]'" />
     <mask>*.gradle</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
