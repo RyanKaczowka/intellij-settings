@@ -223,6 +223,7 @@
     <option name="ignorableAnnotations">
       <value>
         <item value="com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder" />
+        <item value="org.springframework.context.annotation.Configuration" />
       </value>
     </option>
     <option name="ignoreClassWithParameterization" value="false" />
