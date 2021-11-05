@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="File '…/datacardutilities-common/src/main/java/com/philips/sapphire/dcu/common/io/ResourceHelper.java [DataCardUtilities.datacardutilities-common.main]'" />
-    <option name="defaultScopeName" value="File '…/datacardutilities-common/src/main/java/com/philips/sapphire/dcu/common/io/ResourceHelper.java [DataCardUtilities.datacardutilities-common.main]'" />
+    <option name="customScope" value="File '…/domain/src/main/java/com/philips/sapphire/datacardserver/domain/logic/InstallerManager.java [DataCardUtilities.domain.main]'" />
+    <option name="defaultScopeName" value="File '…/domain/src/main/java/com/philips/sapphire/datacardserver/domain/logic/InstallerManager.java [DataCardUtilities.domain.main]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…/datacardutilities-common/src/main/java/com/philips/sapphire/dcu/common/io/ResourceHelper.java [DataCardUtilities.datacardutilities-common.main]'" />
+    <option name="SEARCH_SCOPE" value="File '…/domain/src/main/java/com/philips/sapphire/datacardserver/domain/logic/InstallerManager.java [DataCardUtilities.domain.main]'" />
     <mask>*.gradle</mask>
     <mask>*.css</mask>
     <mask>*.html</mask>
