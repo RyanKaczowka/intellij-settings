@@ -10,9 +10,13 @@
           <option name="url" value="https://scm.sapphirepri.com/enterprise-software-applications/tools-and-utilities/automationtests/ddgenerator.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/openjdk/jdk.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Source/enterprise-software-applications/tools-and-utilities/automationtests" />
+    <option name="cloneParentDir" value="$USER_HOME$/Source/openjdk" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
