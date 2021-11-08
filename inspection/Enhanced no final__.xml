@@ -307,6 +307,13 @@
     <option name="ignoreConstantConversions" value="false" />
   </inspection_tool>
   <inspection_tool class="InconsistentLanguageLevel" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="IncorrectHttpHeaderInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="customHeaders">
+      <set>
+        <option value="X-XSS-Protection" />
+      </set>
+    </option>
+  </inspection_tool>
   <inspection_tool class="IncrementDecrementUsedAsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InnerClassOnInterface" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreInnerInterfaces" value="false" />
@@ -473,7 +480,7 @@
       <option name="ignoreBooleanMethods" value="false" />
       <option name="onlyWarnOnBaseMethods" value="true" />
     </scope>
-    <option name="questionString" value="add,are,can,check,contains,could,endsWith,equals,has,is,matches,must,put,remove,shall,should,startsWith,was,were,will,would" />
+    <option name="questionString" value="are,can,check,contains,could,endsWith,equals,has,is,matches,must,put,remove,shall,should,startsWith,was,were,will,would" />
     <option name="ignoreBooleanMethods" value="false" />
     <option name="onlyWarnOnBaseMethods" value="true" />
   </inspection_tool>
