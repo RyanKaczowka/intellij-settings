@@ -350,7 +350,6 @@
   </inspection_tool>
   <inspection_tool class="JUnit5Converter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JUnitDatapoint" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="JUnitTestNG" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JavaLangImport" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JoinDeclarationAndAssignmentJava" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="Junit4Converter" enabled="true" level="WARNING" enabled_by_default="true" />
