@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…/Sapphire-Gateway-V1/src/test/java/com/philips/sapphire/infrastructure/SapphireGatewayV1/chameleon/logic/ChameleonManagerTest.java [SapphireGateway-v1.Sapphire-Gateway-V1.test]'" />
-    <option name="defaultScopeName" value="File '…/Sapphire-Gateway-V1/src/test/java/com/philips/sapphire/infrastructure/SapphireGatewayV1/chameleon/logic/ChameleonManagerTest.java [SapphireGateway-v1.Sapphire-Gateway-V1.test]'" />
+    <option name="customScope" value="File '…/src/main/java/com/github/javaminds/collect/primitive/immutable/ImmutableBytes.java [java-minds-primitives.main]'" />
+    <option name="defaultScopeName" value="File '…/src/main/java/com/github/javaminds/collect/primitive/immutable/ImmutableBytes.java [java-minds-primitives.main]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…/Sapphire-Gateway-V1/src/test/java/com/philips/sapphire/infrastructure/SapphireGatewayV1/chameleon/logic/ChameleonManagerTest.java [SapphireGateway-v1.Sapphire-Gateway-V1.test]'" />
+    <option name="SEARCH_SCOPE" value="File '…/src/main/java/com/github/javaminds/collect/primitive/immutable/ImmutableBytes.java [java-minds-primitives.main]'" />
     <mask>*.c</mask>
     <mask>*.gradle</mask>
     <mask>*.css</mask>
