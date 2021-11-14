@@ -847,7 +847,6 @@
     <option name="ignoreSameClass" value="false" />
     <option name="ignoreEquals" value="false" />
   </inspection_tool>
-  <inspection_tool class="UseOfClone" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfObsoleteAssert" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfObsoleteDateTimeApi" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UseOfPropertiesAsHashtable" enabled="true" level="WARNING" enabled_by_default="true" />
