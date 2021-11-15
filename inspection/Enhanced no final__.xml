@@ -700,6 +700,10 @@
     <option name="ignoreThrown" value="true" />
   </inspection_tool>
   <inspection_tool class="TooBroadScope" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <scope name="Tests" level="WEAK WARNING" enabled="false">
+      <option name="m_allowConstructorAsInitializer" value="false" />
+      <option name="m_onlyLookAtBlocks" value="false" />
+    </scope>
     <option name="m_allowConstructorAsInitializer" value="false" />
     <option name="m_onlyLookAtBlocks" value="false" />
   </inspection_tool>
