@@ -1,7 +1,7 @@
 <code_scheme name="Enhanced no final" version="173">
   <option name="SOFT_MARGINS" value="80,120" />
   <JavaCodeStyleSettings>
-    <option name="VISIBILITY" value="private" />
+    <option name="VISIBILITY" value="EscalateVisible" />
     <option name="REPLACE_INSTANCEOF_AND_CAST" value="true" />
     <option name="ANNOTATION_PARAMETER_WRAP" value="5" />
     <option name="ALIGN_MULTILINE_TEXT_BLOCKS" value="true" />
