@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…/src/test/java/com/github/javaminds/collect/RingBufferTestHelper.java [java-minds-primitives.test]'" />
-    <option name="defaultScopeName" value="File '…/src/test/java/com/github/javaminds/collect/RingBufferTestHelper.java [java-minds-primitives.test]'" />
+    <option name="customScope" value="File '…/src/main/java/com/github/javaminds/primitive/collect/ImmutableByteArrayList.java [java-minds-primitives.main]'" />
+    <option name="defaultScopeName" value="File '…/src/main/java/com/github/javaminds/primitive/collect/ImmutableByteArrayList.java [java-minds-primitives.main]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…/src/test/java/com/github/javaminds/collect/RingBufferTestHelper.java [java-minds-primitives.test]'" />
+    <option name="SEARCH_SCOPE" value="File '…/src/main/java/com/github/javaminds/primitive/collect/ImmutableByteArrayList.java [java-minds-primitives.main]'" />
     <mask>*.c</mask>
     <mask>*.gradle</mask>
     <mask>*.css</mask>

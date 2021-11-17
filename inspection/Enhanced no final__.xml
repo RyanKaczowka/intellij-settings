@@ -398,7 +398,6 @@
   <inspection_tool class="NestedSynchronizedStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedTryStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NewClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="NewExceptionWithoutArguments" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NewMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonExceptionNameEndsWithException" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -692,9 +691,6 @@
   <inspection_tool class="UnconditionalWait" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UndeclaredTests" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnknownGuard" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="UnnecessarilyQualifiedInnerClassAccess" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreReferencesNeedingImport" value="false" />
-  </inspection_tool>
   <inspection_tool class="UnnecessarilyQualifiedStaticUsage" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreStaticFieldAccesses" value="false" />
     <option name="m_ignoreStaticMethodCalls" value="false" />
