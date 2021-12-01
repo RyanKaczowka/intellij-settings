@@ -3,7 +3,6 @@
   <inspection_tool class="AbsoluteAlignmentInUserInterface" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="AbstractClassExtendsConcreteClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AbstractClassNeverImplemented" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="AbstractMethodCallInConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AbstractMethodOverridesAbstractMethod" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AbstractMethodOverridesConcreteMethod" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="AbstractMethodWithMissingImplementations" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -399,10 +398,8 @@
   <inspection_tool class="NestedSwitchStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedSynchronizedStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedTryStatement" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="NewClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NewMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonExceptionNameEndsWithException" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalFieldInImmutable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalFieldOfException" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalGuard" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -435,7 +432,6 @@
   <inspection_tool class="NotifyWithoutCorrespondingWait" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NullThrown" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NumericToString" enabled="true" level="INFORMATION" enabled_by_default="true" />
-  <inspection_tool class="ObjectAllocationInLoop" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ObjectEqualsCanBeEquality" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ObjectInstantiationInEqualsHashCode" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ObjectNotify" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -539,10 +535,7 @@
   <inspection_tool class="SamePackageImport" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SerialPersistentFieldsWithWrongSignature" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SerialVersionUIDNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="ignoreAnonymousInnerClasses" value="false" />
-    <option name="superClassString" value="java.awt.Component" />
-  </inspection_tool>
+  <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SerializableHasSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreAnonymousInnerClasses" value="false" />
     <option name="superClassString" value="java.awt.Component" />
@@ -594,7 +587,6 @@
   <inspection_tool class="StringTokenizer" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SubtractionInCompareTo" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SuperTearDownInFinally" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="SuspiciousArrayCast" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SuspiciousGetterSetter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SuspiciousIndentAfterControlStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SuspiciousLiteralUnderscore" enabled="true" level="WARNING" enabled_by_default="true" />
