@@ -249,6 +249,7 @@
     <option name="ignoredTypesString" value="java.io.ByteArrayOutputStream,java.io.ByteArrayInputStream,java.io.StringBufferInputStream,java.io.CharArrayWriter,java.io.CharArrayReader,java.io.StringWriter,java.io.StringReader" />
     <option name="insideTryAllowed" value="false" />
   </inspection_tool>
+  <inspection_tool class="IfStatementWithIdenticalBranches" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IfStatementWithTooManyBranches" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_limit" value="3" />
   </inspection_tool>
@@ -306,7 +307,6 @@
   <inspection_tool class="Junit4Converter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="KeySetIterationMayUseEntrySet" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LabeledStatement" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="LambdaParameterHidingMemberVariable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LambdaParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_maxLength" value="99" />
   </inspection_tool>
@@ -317,10 +317,6 @@
   </inspection_tool>
   <inspection_tool class="LiteralAsArgToStringEquals" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="LoadLibraryWithNonConstantString" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="LocalVariableHidingMemberVariable" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_ignoreInvisibleFields" value="true" />
-    <option name="m_ignoreStaticMethods" value="true" />
-  </inspection_tool>
   <inspection_tool class="LocalVariableNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreForLoopParameters" value="false" />
     <option name="m_ignoreCatchParameters" value="false" />
@@ -336,6 +332,7 @@
   <inspection_tool class="LoopWithImplicitTerminationCondition" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Tests" level="WARNING" enabled="false" />
+    <option name="ignoreInitialCapacity" value="true" />
   </inspection_tool>
   <inspection_tool class="MalformedSetUpTearDown" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -384,10 +381,6 @@
   </inspection_tool>
   <inspection_tool class="NegatedConditionalExpression" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NegatedEqualityExpression" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="NegatedIfElse" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="m_ignoreNegatedNullComparison" value="true" />
-    <option name="m_ignoreNegatedZeroComparison" value="false" />
-  </inspection_tool>
   <inspection_tool class="NegativelyNamedBooleanVariable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NestedAssignment" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="NestedConditionalExpression" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -449,16 +442,15 @@
     <option name="ignoreInMatchingInstanceof" value="true" />
   </inspection_tool>
   <inspection_tool class="PackageDotHtmlMayBePackageInfo" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="PackageInMultipleModules" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PackageNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[a-z0-9]*" />
     <option name="m_minLength" value="2" />
     <option name="m_maxLength" value="99" />
   </inspection_tool>
-  <inspection_tool class="PackageWithTooManyClasses" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="PackageWithTooManyClasses" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="limit" value="10" />
   </inspection_tool>
-  <inspection_tool class="ParameterHidingMemberVariable" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="ParameterHidingMemberVariable" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_ignoreInvisibleFields" value="true" />
     <option name="m_ignoreStaticMethodParametersHidingInstanceFields" value="true" />
     <option name="m_ignoreForConstructors" value="true" />
