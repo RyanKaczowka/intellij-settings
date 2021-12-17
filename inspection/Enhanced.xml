@@ -1,0 +1,62 @@
+<profile version="1.0">
+  <option name="myName" value="Enhanced" />
+  <inspection_tool class="ClassWithOnlyPrivateConstructors" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ControlFlowStatementWithoutBraces" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ExtendsConcreteCollection" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ExtendsUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LambdaParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_maxLength" value="99" />
+  </inspection_tool>
+  <inspection_tool class="LocalCanBeFinal" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="REPORT_VARIABLES" value="true" />
+    <option name="REPORT_PARAMETERS" value="true" />
+  </inspection_tool>
+  <inspection_tool class="LocalVariableNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_ignoreForLoopParameters" value="false" />
+    <option name="m_ignoreCatchParameters" value="false" />
+    <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+    <option name="m_minLength" value="1" />
+    <option name="m_maxLength" value="99" />
+  </inspection_tool>
+  <inspection_tool class="MissortedModifiers" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_requireAnnotationsFirst" value="true" />
+  </inspection_tool>
+  <inspection_tool class="NewClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NewMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonFinalUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="PackageNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_regex" value="[a-z0-9]*" />
+    <option name="m_minLength" value="2" />
+    <option name="m_maxLength" value="99" />
+  </inspection_tool>
+  <inspection_tool class="ParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+    <option name="m_minLength" value="1" />
+    <option name="m_maxLength" value="99" />
+  </inspection_tool>
+  <inspection_tool class="SimplifiableAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryParentheses" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoreClarifyingParentheses" value="false" />
+    <option name="ignoreParenthesesOnConditionals" value="false" />
+    <option name="ignoreParenthesesOnLambdaParameter" value="false" />
+  </inspection_tool>
+  <inspection_tool class="UnnecessaryQualifierForThis" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryThis" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreAssignments" value="true" />
+  </inspection_tool>
+  <inspection_tool class="UtilityClassWithPublicConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignorableAnnotations">
+      <value />
+    </option>
+    <option name="ignoreClassesWithOnlyMain" value="false" />
+  </inspection_tool>
+  <inspection_tool class="WeakerAccess" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="false" />
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
+    <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
+  </inspection_tool>
+</profile>
