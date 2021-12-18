@@ -287,7 +287,7 @@
   <inspection_tool class="InstanceofThis" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IntLiteralMayBeLongLiteral" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InterfaceMayBeAnnotatedFunctional" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="InterfaceNeverImplemented" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="InterfaceNeverImplemented" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="ignoreInterfacesThatOnlyDeclareConstants" value="false" />
     <option name="ignorableAnnotations">
       <value>
