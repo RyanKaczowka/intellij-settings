@@ -94,7 +94,6 @@
   <inspection_tool class="ChannelResource" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="insideTryAllowed" value="false" />
   </inspection_tool>
-  <inspection_tool class="CharUsedInArithmeticContext" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CharacterComparison" enabled="true" level="INFORMATION" enabled_by_default="true" />
   <inspection_tool class="ClassHasNoToStringMethod" enabled="true" level="INFORMATION" enabled_by_default="true">
     <option name="excludeClassNames" value="" />
@@ -163,7 +162,7 @@
   <inspection_tool class="ControlFlowStatementWithoutBraces" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertJavadoc" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertOldAnnotations" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ConvertToBasicLatin" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConvertToBasicLatin" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="CovariantEquals" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CustomClassloader" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CustomSecurityManager" enabled="true" level="WARNING" enabled_by_default="true" />
