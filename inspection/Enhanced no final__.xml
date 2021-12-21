@@ -162,6 +162,7 @@
   <inspection_tool class="ControlFlowStatementWithoutBraces" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertJavadoc" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertOldAnnotations" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConvertToBasicLatin" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CovariantEquals" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CustomClassloader" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CustomSecurityManager" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -699,7 +700,6 @@
   <inspection_tool class="UnnecessaryThis" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreAssignments" value="true" />
   </inspection_tool>
-  <inspection_tool class="UnnecessaryUnicodeEscape" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnsecureRandomNumberGeneration" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnusedLibrary" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="WARNING" enabled_by_default="true" />
