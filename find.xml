@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="File '…\src\main\java\com\github\javaminds\primitive\collect\stream\StreamWrapper.java [java-minds-primitives.main]'" />
-    <option name="defaultScopeName" value="File '…\src\main\java\com\github\javaminds\primitive\collect\stream\StreamWrapper.java [java-minds-primitives.main]'" />
+    <option name="customScope" value="File '…\src\test\java\com\github\javaminds\primitive\collect\stream\EnhancedStreamTest.java [java-minds-primitives.test]'" />
+    <option name="defaultScopeName" value="File '…\src\test\java\com\github\javaminds\primitive\collect\stream\EnhancedStreamTest.java [java-minds-primitives.test]'" />
     <option name="localCaseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…\src\main\java\com\github\javaminds\primitive\collect\stream\StreamWrapper.java [java-minds-primitives.main]'" />
+    <option name="SEARCH_SCOPE" value="File '…\src\test\java\com\github\javaminds\primitive\collect\stream\EnhancedStreamTest.java [java-minds-primitives.test]'" />
     <option name="FILE_MASK" value="*.java" />
     <mask>*.c</mask>
     <mask>*.gradle</mask>
