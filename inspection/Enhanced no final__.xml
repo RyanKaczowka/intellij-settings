@@ -152,8 +152,6 @@
     <option name="myConstantShouldGoLeft" value="false" />
   </inspection_tool>
   <inspection_tool class="ConstantValueVariableUse" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ContinueStatement" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ContinueStatementWithLabel" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ControlFlowStatementWithoutBraces" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertJavadoc" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConvertOldAnnotations" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -302,7 +300,6 @@
   <inspection_tool class="JoinDeclarationAndAssignmentJava" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="Junit4Converter" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="KeySetIterationMayUseEntrySet" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="LabeledStatement" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LambdaParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_maxLength" value="99" />
   </inspection_tool>
