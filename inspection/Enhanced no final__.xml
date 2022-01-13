@@ -651,6 +651,7 @@
     <option name="doNotWeakenToJavaLangObject" value="true" />
     <option name="onlyWeakentoInterface" value="true" />
     <option name="doNotWeakenInferredVariableType" value="true" />
+    <stopClasses>java.util.PrimitiveIterator.OfInt,java.util.PrimitiveIterator.OfLong,java.util.PrimitiveIterator.OfDouble,java.util.Spliterator.OfInt,java.util.Spliterator.OfLong,java.util.Spliterator.OfDouble</stopClasses>
   </inspection_tool>
   <inspection_tool class="TypeParameterExtendsFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnconditionalWait" enabled="true" level="WARNING" enabled_by_default="true" />
